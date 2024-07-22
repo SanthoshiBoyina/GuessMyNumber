@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href = "styles.css"/>
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <div class = "guess-my-number">
+        <div class = "header">
+            <h1>Guess My Number!</h1>
+            <p class = "between">(Between 1 and 20)</Between></p>
+            <div class="number">?</div>
+        </div>
+
+        <main>
+          <div class = "left">
+              <p class = "enter-message">Enter the Number: ✍️</p>
+              <div class = "check-number">
+                  <input type = "number" class = "check-number-input"/>
+                  <button class = "check-btn"> Check</button>
+              </div>
+          </div>
+          <div class = "right">
+              <p class = "guess-message">🤔 Start Guessing..... </p>
+              <p>🎯 Score: <span class = "score">20</span></p>
+              <p>🏆 High Score: <span class = "high-score">0</span></p>
+              <p  class = "turns-left-message">⏳ Number of turns left: <span class = "turns-left">10</span></p>
+          </div>
+      </main>
+    </div>
+    <script src = "script.js"></script>
+  </body>
+</html>
