@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.guess-my-number {
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  height: 200px;
+  padding: 50px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.again-button {
+  font-size: 30px;
+  background-color: MediumSeaGreen;
+  border-style: double;
+  border-color: rgb(31, 19, 112);
+  border-width: 10px;
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  margin-top: 20px;
+  color: black;
+}
+
+.between {
+  font-size: 30px;
+  margin-top: 60px;
+  color: rgb(48, 230, 230);
+}
+
+h1 {
+  font-size: 90px;
+  color: rgb(48, 230, 230);
+}
+
+.number {
+  background: #eee;
+  color: black;
+  font-size: 6rem;
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  transform: translate(-10px, 200px);
+}
+
+main {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 495px;
+  font-size: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.enter-message {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.check-number {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.check-number-input {
+  color: black;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.check-btn {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-style: double;
+  font-size: 30px;
+  border-color: rgb(31, 19, 112);
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+.right {
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.guess-message {
+  margin-bottom: 40px;
+}
+
+.score {
+  margin-bottom: 15px;
+}
+
+.turns-left-message {
+  color: red;
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  margin-top: 150px;
+}
+
+.game-over-message {
+  font-size: 50px;
+  color: red;
+}
